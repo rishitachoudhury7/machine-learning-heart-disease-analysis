@@ -19,40 +19,66 @@ Resting Blood Pressure
 
 Cholesterol
 
-# Maximum Heart Rate
+Maximum Heart Rate
+
 Exercise Angina
+
 ST Slope
+
 Heart Disease (Target Variable)
 
-**Machine Learning Pipeline**
+# **Machine Learning Pipeline**
+
 Data Loading
+
 Data Preprocessing
+
 One-Hot Encoding of categorical features
+
 Outlier Removal using Z-score
+
 Feature and Target Separation
+
 Train-Test Split
+
 Feature Scaling using StandardScaler
+
 Model Training (Logistic Regression, SVM, Random Forest)
+
 Model Evaluation using Accuracy Score
+
 Dimensionality Reduction using PCA
+
 Hyperparameter Tuning using GridSearchCV
+
 Final Model Selection based on Accuracy
 
 **Principal Component Analysis (PCA)** was applied to reduce dimensionality while preserving 95% variance.
+
 Original Features: 15
+
 Reduced Features: 10
 
-**Model Accuracy**
+# **Model Accuracy**
+
 _Logistic Regression	85.87%_ 
+
 _SVM	86.41%_
+
 _Random Forest	85.87%_
+
 _Logistic Regression + PCA	83.15%_
+
 _SVM + PCA	84.24%_
+
 _Random Forest + PCA	87.50%_
 
-**The best-performing model was:**
+# **The best-performing model was:**
+
 _**Random Forest + PCA
+
 Final Accuracy: 87.5%**_
+
 Best Hyperparameters:
 
 {
@@ -60,7 +86,7 @@ Best Hyperparameters:
     'min_samples_split': 2,
     'n_estimators': 200
 }
-**Technologies Used**
+# **Technologies Used**
 Python
 Pandas
 NumPy
