@@ -18,7 +18,8 @@ Chest Pain Type
 Resting Blood Pressure
 
 Cholesterol
-Maximum Heart Rate
+
+# Maximum Heart Rate
 Exercise Angina
 ST Slope
 Heart Disease (Target Variable)
