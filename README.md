@@ -2,15 +2,21 @@
 Heart Disease Prediction using Machine Learning models including Logistic Regression, SVM, Random Forest, PCA, and Hyperparameter Tuning.
 
 Project Overview
+
 This project focuses on predicting heart disease using multiple Machine Learning classification algorithms. The dataset was preprocessed, scaled, and analyzed using various ML models including Logistic Regression, Support Vector Machine (SVM), and Random Forest Classifier.
 
 Dimensionality reduction using Principal Component Analysis (PCA) and hyperparameter tuning using GridSearchCV were also performed to improve model performance.
 
 **The dataset contains patient health information such as:** 
+
 Age
+
 Sex
+
 Chest Pain Type
+
 Resting Blood Pressure
+
 Cholesterol
 Maximum Heart Rate
 Exercise Angina
